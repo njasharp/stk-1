@@ -161,6 +161,9 @@ def plot_stock(stock_symbol):
 st.title("Stock Price Analysis")
 stock_symbol = st.text_input("Enter Stock Symbol", value="AAPL")
 
+st.divider()
+
 if stock_symbol:
     plot_stock(stock_symbol)
+
 st.info("built by dw")
